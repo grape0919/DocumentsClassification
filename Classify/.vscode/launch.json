@@ -1,0 +1,16 @@
+{
+        "version": "0.2.0",
+        "configurations": [
+            {
+                "name": "(Windows) Launch",
+                "type": "cppvsdbg",
+                "request": "launch",
+                "program": "G:\\Windows\\HONGKYO\\Project\\Classify\\Classify\\x64\\Debug\\Classify.exe",
+                "args": [],
+                "stopAtEntry": false,
+                "cwd": "${workspaceRoot}",
+                "environment": [],
+                "externalConsole": true
+            }
+        ]
+    }
