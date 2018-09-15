@@ -82,9 +82,9 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <ExecutablePath>C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Java\jdk1.8.0_151\jre\bin\server;$(ExecutablePath)</ExecutablePath>
-    <IncludePath>C:\Program Files\Java\jdk1.8.0_151\include\win32;C:\Program Files\Java\jdk1.8.0_151\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Program Files\Java\jdk1.8.0_151\lib;$(LibraryPath)</LibraryPath>
+    <ExecutablePath>C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin\server;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>C:\Program Files\Java\jdk1.8.0_181\include\win32;C:\Program Files\Java\jdk1.8.0_181\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files\Java\jdk1.8.0_181\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -132,7 +132,7 @@
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>D:\Program Files\Java\jdk1.8.0_121\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Program Files\Java\jdk1.8.0_181\jre\bin\server;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>jvm.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <Midl>
